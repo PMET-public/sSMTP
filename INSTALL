@@ -26,7 +26,7 @@ I would actually just suggest the INSTALL from automake.  But:
 If you are building sSMPT from scratch the following steps worked on a
 Fedora Core 1 system.  To install it in the /usr/local directory:
 
-        ./configure
+        ./configure --enable-ssl
         make
         make install
 
